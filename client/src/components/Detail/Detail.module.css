@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+.card {
+  font-family: "DM Sans", sans-serif;
+  background-color: #c19930;
+  position: relative;
+  margin-top: 2%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.textbox {
+  background: linear-gradient(#a9852b, #f0f0f000);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.name {
+  margin-left: 50%;
+}
+
+.height {
+  margin-left: 50%;
+}
+
+.weight {
+  margin-left: 50%;
+}
+
+.lifeSpan {
+  margin-left: 50%;
+}
+
+.temp {
+  margin-left: 50%;
+  margin-bottom: -1%;
+  margin-top: 5px;
+}
+
+.tempGridMuch {
+  margin-left: 50%;
+  padding: 20px;
+  gap: 8%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 15px;
+  align-items: stretch;
+}
+
+.tempGridFew {
+  margin-left: 50%;
+  padding: 40px;
+  gap: 8%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-gap: 15px;
+  align-items: stretch;
+}
+
+.tempButton {
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  background-color: #7b6413;
+  border: none;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.button {
+  margin-left: 50%;
+  font-family: "DM Sans", sans-serif;
+  font-size: large;
+  margin-bottom: 5vh;
+  color: white;
+  background-color: #7b6413;
+  border: none;
+  border-radius: 10px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 2%;
+}
+
+.button:hover {
+  background-color: #645210;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.img {
+  position: absolute;
+  top: 4%;
+  left: 2%;
+  width: 500px;
+  height: 92%;
+  object-fit: cover;
+  object-position: 30% 5%;
+  border-radius: 10px;
+}
+
+.deleteButton{
+  margin-left: 50%;
+  font-family: "DM Sans", sans-serif;
+  font-size: large;
+  margin-bottom: 5vh;
+  color: white;
+  background-color: #7b6413;
+  border: none;
+  border-radius: 10px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: absolute;
+  left: 43.5%;
+  top: 85%;
+}
+
+.deleteButton:hover {
+  background-color: #645210;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.showNone{
+  display: none;
+}
+
+@media only screen and (max-width: 810px) {
+  .card {
+    font-family: "DM Sans", sans-serif;
+    background-color: #c19930;
+    position: relative;
+    margin-top: 5%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .textbox {
+    background: linear-gradient(#a9852b, #f0f0f000);
+    border-radius: 10px;
+  }
+  
+  .name {
+    margin-top: 55%;
+    margin-left: 0%;
+  }
+  
+  .height {
+    margin-left: 0%;
+  }
+  
+  .weight {
+    margin-left: 0%;
+  }
+  
+  .lifeSpan {
+    margin-left: 0%;
+  }
+  
+  .temp {
+    margin-bottom: -1%;
+    margin-top: 5px;
+    margin-left: 0%;
+  }
+  
+  .tempGridMuch {
+    margin-left: 17.5%;
+    padding: 20px;
+    gap: 8%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 15px;
+    align-items: stretch;
+  }
+  
+  .tempGridFew {
+    margin-left: 17.5%;
+    padding: 40px;
+    gap: 8%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-gap: 15px;
+    align-items: stretch;
+  }
+  
+  .tempButton {
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    background-color: #7b6413;
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .button {
+    margin-left: 0%;
+    font-family: "DM Sans", sans-serif;
+    font-size: large;
+    margin-bottom: 4vh;
+    color: white;
+    background-color: #7b6413;
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  
+  .img {
+    width: 78.5vw;
+    height: 32.5vh;
+    object-fit: cover;
+    object-position: 30% 5%;
+    border-radius: 10px;
+    top: 2.5vh;
+    left: 7.5vw;
+  }
+
+  .deleteButton{
+    left: 15%;
+    top: 72.5vh;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .name {
+    margin-top: 65%;
+    margin-left: 0%;
+  }
+
+  .img {
+    width: 72.5vw;
+    height: 32.5vh;
+    object-fit: cover;
+    object-position: 30% 5%;
+    border-radius: 10px;
+    top: 2.5vh;
+    left: 7.5vw;
+  }
+
+  .deleteButton{
+    left: 20%;
+    top: 66.5vh;
+  }
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .name {
+    margin-top: 95%;
+    margin-left: 0%;
+  }
+
+  .img {
+    width: 72.5vw;
+    height: 32.5vh;
+    object-fit: cover;
+    object-position: 30% 5%;
+    border-radius: 10px;
+    top: 2.5vh;
+    left: 7.5vw;
+  }
+
+  .deleteButton{
+    left: 29%;
+    top: 90.8%;
+  }
+  
+}
