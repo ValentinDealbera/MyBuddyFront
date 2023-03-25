@@ -52,6 +52,7 @@ const Cards = (props) => {
     if (filter === "Created") {
       const dogsToShow = alldogs.filter((e) => typeof e.id === "string");
       alldogs = dogsToShow;
+      
       return dogsToShow.map((dog) => {
         return (
           <Card
